@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rmcharchian/starwars/issues"
   },
-  "homepage": "https://github.com/rmcharchian/starwars#readme"
+  "homepage": "https://github.com/rmcharchian/starwars#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
