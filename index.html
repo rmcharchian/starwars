@@ -10,15 +10,18 @@
     </audio> -->
   
         <link rel="stylesheet" href="styles.css">
+        <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
 
        
         
 </head>
 <body>
-    <audio preload="auto" autoplay>
+    <!-- <audio preload="auto" autoplay>
         <source src="@/assets/audio/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg">
-    </audio>
-
+    </audio> -->
+    <!-- used https://www.media.io/ to convert mp3 file to a OGG -->
+    <audio src="assets/audio/Star_Wars_original_opening_crawl_1977.mp3" controls preload></audio>
+    <audio src="assets/audio/Star_Wars_original_opening_crawl_1977.ogg" controls preload></audio>
 
     <section class="logo">
             <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
